@@ -333,6 +333,8 @@ int main()
         input >> arr[size++];
     }
     clkStart = clock();
+    //Uncomment the algorithm you want to use
+    
     //bubbleSort(arr, size);
     //selectionSort(arr, size);
     //insertionSort(arr, size);
@@ -340,7 +342,7 @@ int main()
     //quickSort(arr, 0, size - 1);
     //heapSort(arr, size);
     //radixsort(arr, size);
-    countingSort(arr, size);
+    //countingSort(arr, size);
 
     clkFinish = clock();
     printArray(arr, size);
